@@ -1,0 +1,32 @@
+<div>
+    <form action="">
+        <h1>Payment form</h1><hr>
+        <h2>contact information</h2>
+        <p>Name: <input type="text" name="name" placeholder="your name" required></p>
+        <p>
+            Gender:
+             male <input type="radio" name="gender" id="male">
+            female <input type="radio" name="gender" id="female">
+        </p>
+        <p>
+            Address:<textarea name="address" id="address" placeholder="address"  cols="50" rows="5"></textarea>
+        </p>
+        <p>Email: <input type="email" name="email" id="email" placeholder="your Email"></p>
+        <p>Pin code: <input type="number" name="pincode" id="pincode" placeholder="pincode"></p>
+        <h2>Payment information</h2>
+        <p>
+            Card type:
+            <select name="card_type" id="card_type">
+                <option value="">--select a card--</option>
+                <option value="visa">visa card</option>
+                <option value="credit">credit card</option>
+                <option value="debit">debit card</option>
+                <option value="rupay">rupay</option>
+            </select>
+        </p>
+        <p>Card number: <input type="number" name="card_number" id="card_number" placeholder="yor card number"></p>
+        <p>Expiry date: <input type="date" name="exp_date" id="exp_date"></p>
+        <p>CVV: <input type="password" name="cvv" id="cvv" placeholder="e.g.234"></p>
+        <input type="submit" id="pay" value="pay now">
+    </form>
+</div>

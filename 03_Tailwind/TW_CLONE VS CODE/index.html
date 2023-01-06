@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <nav class="flex sticky top-0 place-content-around bg-zinc-800  items-center h-12 ">
+
+        <div class="flex items-center gap-x-2">
+
+            <img src="assets\logo.png" class="w-7 " alt="logo">
+            <p class="text-xl font-medium text-white">Visual Studio Code</p>
+
+            <ul class="flex items-center gap-x-4 px-2 text-zinc-500 font-bold  ">
+                <li class=" hover:text-white">Docs</li>
+                <li class="hover:text-white">Updates</li>
+                <li class="hover:text-white">Blog</li>
+                <li class="hover:text-white">API</li>
+                <li class="hover:text-white">Extensions</li>
+                <li class="hover:text-white">FAQ</li>
+                <li class="hover:text-white">Learn</li>
+            </ul class="hover:text-white">
+        </div>
+
+        <div class="flex">
+            <input class="bg-zinc-500 text-center py-3 placeholder-white hover:bg-zinc-400" type="text"
+                placeholder="Search Docs">
+            <button
+                class="text-white text-center py-3 bg-blue-600 text-bold px-10 mx-0 hover:bg-blue-700">Download</button>
+        </div>
+    </nav>
+
+    <!-- ------------------------------version ------------------------------------ -->
+    <div class="bg-zinc-900 py-3">
+        <p class="text-white text-center"><span class="text-blue-400 hover:underline underline-offset-1">Version
+                1.73</span> is now available! Read about the new features and fixes from October.</p>
+    </div>
+
+    <!-- -----------------------------section-1-------------------------------------- -->
+    <div class="flex">
+        <div class="text-white w-2/5  bg-zinc-800 text-center flex flex-col gap-y-4 pt-20 items-center">
+            <h1 class="text-5xl font-thin ">Code editing. <br><span class="text-6xl font-normal">Redefined.</span></h1>
+            <p class="text-zinc-500 font-medium">Free. Built on open source. Runs everywhere.</p>
+            <div class=" flex ">
+                <button class="px-4 py-2  bg-blue-500 mx-1">
+
+                    <p class="text-xl font-semibold text-white "> Download for Windows.</p>
+                    <p class="text-base text-white">Stable build</p>
+                </button>
+
+                <button class="px-4 py-2  bg-blue-500">
+                    <img src="assets\white.png" class="w-8" alt="arr">
+                </button>
+            </div>
+
+            <p class="font-light text-sm"><a href="#" class="text-blue-400">Web</a>,<a href="#" class="text-blue-400">
+                    Insiders edition</a>, or <a href="#" class="text-blue-400">other platforms</a></p>
+            <p class="font-extralight text-xs">By using VS Code, you agree to its <br><a href="#"
+                    class="text-blue-400">license and privacy statement.</a></p>
+        </div>
+
+        <div class="w-3/5  bg-zinc-800 pr-20 pt-12 pb-14">
+            <img src="assets\Screenshot 2022-12-01 142347.png" alt="ss">
+        </div>
+    </div>
+    <!-- ------------------------logo's----------------------------------------------- -->
+    <div class="flex  place-content-around  h-32">
+        <img src="assets\bolb.png" class="hover: cursor-pointer" alt="">
+        <img src="assets\debug.png" class="hover: cursor-pointer" alt="">
+        <img src="assets\git.png" class="hover: cursor-pointer" alt="">
+        <img src="assets\extension.png" class="hover: cursor-pointer" alt="">
+    </div>
+    <!---------------------------comments----------------------------------------------->
+    <div class="flex place-content-around px-20 py-24 bg-slate-100 my-4">
+
+        <div class="flex w-1/3 ">
+            <img src="assets\istockphoto-1423010919-170667a.jpg" class="h-16 w-16 rounded-full   mx-2" alt="ss">
+            <p class="font-base text-zinc-500"><a href="#" class="font-bold text-sm text-black">Anta urish</a><br> VS
+                @code does so many things right. I’m constantly impressed by the UX, and customizing workspace / user
+                preferences is no exception. 🙌🏼💯 It just keeps getting better ❤️</p>
+        </div>
+
+        <div class="flex w-1/3">
+            <img src="assets\2.jpg" class="h-16 w-16 rounded-full  mx-2" alt="ss">
+            <p class="font-base text-zinc-500"><a href="#" class="font-bold text-sm text-black">John Astib</a><br>
+                VS Code will have deep remote development. You can connect to a container running a different OS and use
+                any VS Code plugins, linting, debugging for that environment. 🔥🔥🔥
+            </p>
+        </div>
+
+        <div class="flex w-1/3">
+            <img src="assets\6.jpg" class="h-16 w-16 rounded-full  mx-2" alt="ss">
+            <p class="font-base text-zinc-500"><a href="#" class="font-bold text-sm text-black">Anthina Soef</a><br>VS
+                Code is my most used and favorite editor. I love being able to customize the editor - changing the
+                layout, the icons, fonts and color scheme is so easy!
+            </p>
+        </div>
+    </div>
+    <!-- -----------------------------------section2------------------------------------ -->
+    <div>
+        <div class="flex place-content-around items-center px-16">
+            <img src="assets\r.png" alt="ss">
+            <div class="text-zinc-500 px-16 ">
+                <h1 class="text-3xl font-thin leading-loose">Meet IntelliSense.</h1>
+                <p class="text-lg leading-loose">Go beyond syntax highlighting and autocomplete with IntelliSense, which provides smart completions
+                    based on variable types, function definitions, and imported modules.</p>
+            </div>
+        </div>
+
+        <div class="flex flex-row-reverse bg-zinc-100 place-content-around items-center px-16">
+            <img src="assets\4.png" alt="ss">
+            <div class="text-zinc-500 px-16 ">
+                <h1 class="text-3xl font-thin leading-loose">Print statement debugging is a thing of the past.</h1>
+                <p class="text-lg leading-loose"> Debug code right from the editor. Launch or attach to your running apps and debug with break points, call stacks, and an interactive console.</p>
+            </div>
+        </div>
+
+        <div class="flex place-content-around items-center px-16">
+            <img src="assets\5.png" alt="ss" class="mt-10">
+            <div class="text-zinc-500 px-16 ">
+                <h1 class="text-3xl font-thin leading-loose">Git commands built-in.</h1>
+                <p class="text-lg leading-loose">
+                    Working with Git and other SCM providers has never been easier. Review diffs, stage files, and make commits right from the editor. Push and pull from any hosted SCM service.
+                </p>
+            </div>
+        </div>
+        
+        <div class="flex flex-row-reverse bg-zinc-100 w-full place-content-around items-center px-16">
+            <img src="assets\7.png" alt="ss" class=" ">
+            <div class="text-zinc-500 px-16 ">
+                <h1 class="text-3xl font-thin leading-loose">Extensible and customizable.</h1>
+                <p class="text-lg leading-loose"> Want even more features? Install extensions to add new languages, themes, debuggers, and to connect to additional services. Extensions run in separate processes, ensuring they won't slow down your editor. <span class="text-blue-400 hover:underline cursor-pointer">Learn more about extensions.</span></p>
+            </div>
+        </div>
+
+        <div class="flex place-content-around items-center px-16">
+            <img src="assets\8.png" alt="ss" class="mt-10">
+            <div class="text-zinc-500 px-16 ">
+                <h1 class="text-3xl font-thin leading-loose">Deploy with confidence and ease</h1>
+                <p class="text-lg leading-loose">
+                    With <span class="text-blue-400 hover:underline cursor-pointer">>Microsoft Azure</span> you can deploy and host your React, Angular, Vue, Node, Python (and more!) sites, store and query relational and document based data, and scale with serverless computing, all with ease, <span class="text-blue-400 hover:underline cursor-pointer">all from within VS Code.</span>
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- --------------------------------------section5---------------------------------------- -->
+    <div class="bg-zinc-100 flex flex-col items-center">
+        <h1 class="text-3xl font-extralight text-zinc-500 my-12">VS Code for</h1>
+        <img src="assets\9.png" alt="ss">
+        <p class="mt-6 text-blue-700 text-lg font-normal hover:underline cursor-pointer">and many more languages on the Marketplace...</p>
+ 
+       <button class="my-16 bg-blue-700 h-16 w-52 text-white text-lg font-medium ">Get Started Now</button>
+    </div>
+
+    <!-- -------------------------------------------mac ------------------------------------------------ -->
+    <div class="bg-blue-500">
+        <h1>pic and other</h1>
+    </div>
+
+    <!-- --------------------------------------------informations----------------------------------------------- -->
+    <div class="bg-zinc-200">
+        <div class="flex place-content-around items-center ">
+            <div>
+                 <h1 class="font-semibold text-2xl mt-10 text-gray-700 w-70 ">Want new features sooner?</h1>   
+                 <p class="text-gray-700 text-large mt-5">Get the <span class="text-blue-700">Insiders build</span> instead.</p>
+            </div>
+            <div>
+                <h1 class="font-semibold text-2xl mt-10 text-gray-700  w-80">Use <span class="text-blue-700">vscode.dev</span> for quick edits online!</h1>
+                <p class="text-gray-700 text-large mt-5">GitHub, Azure Repos, and local files.</p>
+            </div>
+        </div>
+
+        <div  class="flex flex-col place-content-center items-center text-gray-500 leading-10 mx-56 pt-14">
+            <h1>LICENSE AND PRIVACY TERMS</h1>
+            <p class="pb-14">By downloading and using Visual Studio Code, you agree to the <span class="text-blue-700">license terms</span> and <span class="text-blue-700">privacy statement</span>. VS Code automatically sends telemetry data and crash dumps to help us improve the product. If you would prefer not to have this data sent please go see <span class="text-blue-700">How to Disable Crash Reporting</span> to learn how to disable it.</p>
+        </div>
+    </div>
+
+</body>
+
+</html>

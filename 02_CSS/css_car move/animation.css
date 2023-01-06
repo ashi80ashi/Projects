@@ -1,0 +1,87 @@
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(sky.webp) ;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+.highway{
+    height:150px;
+    width: 9000px;
+    display: block;
+    background-image: url(road.jpg);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    background-repeat: repeat-x;
+    animation: highway 10s linear infinite;
+}
+@keyframes highway{
+    100%{
+        transform:translateX(-2400px)
+    }
+}
+.city{
+    height: 200px;
+    width: 5000px;
+    background-image: url(city.png);
+    position: absolute;
+    bottom:150px;
+    left: 0;
+    display: block;
+    z-index: 1;
+    background-repeat: repeat-x;
+    animation: city 20s linear infinite;
+}
+@keyframes city{
+    100%{
+        transform: translateX(-1400px);
+    }
+}
+.car{
+    width: 400px;
+    left:50%;
+    bottom:100px;
+    transform: translateX(-70%);
+    position: absolute;
+    z-index: 2;
+}
+.car img{
+    width: 100%;
+}
+
+.wheel{
+    width: 90px;
+    left: 70%;
+    bottom: 95px;
+    position: absolute;
+    z-index: 3;
+    transform: translateX(-287%);
+}
+.wheel img{
+    width:80%;
+    animation: wheel 1s linear infinite ;
+}
+
+
+.wheel2{
+    width: 90px;
+    left: 70%;
+    bottom: 95px;
+    position: absolute;
+    z-index: 3;
+    transform: translateX(-557%);
+    
+}
+.wheel2 img{
+    width:80%;
+    animation: wheel 1s linear infinite ;
+}
+@keyframes wheel{
+    100%{
+        transform: rotate(360deg);
+    }
+}

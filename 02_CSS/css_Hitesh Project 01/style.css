@@ -1,0 +1,79 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+body{
+    margin:0px;
+    padding-left:  100px;
+}
+.navbar-container{
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    width: 100vw;
+    
+}
+nav>div>img{
+   width: 100px;
+}
+
+.list{
+  
+    display: flex;
+    position: relative;
+    list-style: none;
+    font-size: larger;
+    font-weight: 800;   
+}
+
+.list-item {
+    display: inline-block;
+    color: darkgray;
+    padding: 5px 25px;
+}
+.list-item:hover{
+    color: black;
+}
+
+.button-group{
+    position: relative;
+    left: 400px;
+   
+}
+.nav-button{
+    background-color: rgb(72, 30, 185);
+    border-radius: 10px;
+   padding: 15px 30px;
+    color: white;
+    font-size: larger;
+}
+
+
+.banner-container{
+    display: flex;
+    align-items: center;
+    margin-top: 3em;
+}
+.heading-text{
+    font-family: Poppins;
+    font-size: 4em;
+    color: rgb(54, 21, 146);
+}
+
+.heading-text>span{
+    
+    color:  rgb(108, 67, 219);
+}
+
+.banner-container>div{
+    display: flex;
+    flex-direction: column;
+    height: 550px;
+    
+    align-items: self-start;
+    justify-content: space-between;
+}
+
+.description{
+   
+    font-size: larger;
+    height: 7em;
+}

@@ -1,0 +1,24 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+}
+div#wrapper{
+    margin:50px auto ;
+    width: 80%;
+}
+#btn{
+    font-size: larger;
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.black{
+    background-color: black;
+    color: white;
+}
+.white{
+    background-color: white;
+    color: #000;    
+}
