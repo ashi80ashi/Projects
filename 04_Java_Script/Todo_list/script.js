@@ -1,12 +1,13 @@
 
 let form = document.querySelector("form");
-let container = document.querySelector(".container");
 
 let tasks=[];
 
 function rend(){
+    
     let html='';
     tasks.forEach((value,index)=>{
+        console.log(index,value.description)
         html+=`<div class="task" onClick='del(${index})' >
         <div>
             <p>${value.title}</p>
@@ -21,10 +22,10 @@ function rend(){
 
 form.addEventListener("submit",(e)=>{
     e.preventDefault();
-    let index=1;
     let title = document.getElementById("title").value;
     let description =document.getElementById("description").value;
     tasks.push({title:title,description:description});
+    console.log(tasks)
    // console.log(tasks);
     rend();
 });
