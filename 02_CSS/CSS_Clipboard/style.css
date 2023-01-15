@@ -1,0 +1,268 @@
+body{
+    padding: 0;
+    margin: 0;
+  
+}
+
+.logo{
+    background-image: url('./images/bg-header-desktop.png') ;
+    background-repeat: no-repeat;
+    background-position: cover;
+    text-align: center;
+    width: 100%;
+    padding-top: 20vh;
+    padding-bottom: 10vh;
+}
+
+.btn{
+    color: white;
+    padding: 20px 40px;
+    border-radius: 50px;
+    border: none;
+    font-size: 3vh;
+    margin-left: 15px ;
+    box-shadow: 2px 5px 20px rgb(172, 172, 172);
+}
+
+.btn:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.btn1{
+    background-color: rgb(38, 186, 164);
+}
+.btn2{
+    background-color: #6173ff;
+}
+
+/* ------------------------------------------------------section one-------------------------------------------- */
+
+.sectionone{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    column-gap: 10px;
+}
+
+.sectionone > h1{
+    font-size:8vh;
+    color: rgb(69, 67, 67);
+    line-height: 5px;
+   
+}
+
+.sectionone > p{
+    font-size: 4vh;
+    color: rgb(159, 154, 154);
+    line-height: 6vh;
+}
+
+/* ------------------------------------------------section-two--------------------------------------------------- */
+.sectiontwo{
+    padding: 15vh 35vh;
+   text-align: center;
+}
+.sectiontwo > h1{
+    font-size:7vh;
+    font-weight: bold;
+    color: rgb(67, 64, 64);
+    line-height: 10vh;
+   
+}
+
+.sectiontwo > p{
+    font-size: 4vh;
+    color: rgb(159, 154, 154);
+    line-height: 6vh;
+
+}
+
+/* -------------------------------------------------section three-------------------------------------------------- */
+.sec3{
+    display: flex;
+}
+
+.sec3img{
+  position: relative;
+  left: -10%;
+}
+
+.sec3para{
+    padding-right: 25vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5vh;
+    justify-content: center;
+    
+}
+
+.sec3para > div > h1{
+    font-size:4vh;
+    color: rgb(67, 64, 64);
+    line-height: 8px;   
+} 
+
+.sec3para > div > p{
+    font-size: 3vh;
+    color: rgb(159, 154, 154);
+
+}
+
+/* ----------------------------------------section four--------------------------------------------------- */
+.sec4{
+    padding: 20vh 45vh;
+    text-align: center;
+}
+
+.sec4 > h1{
+    font-size:8vh;
+    color: rgb(67, 64, 64);
+    line-height: 8px;   
+} 
+
+.sec4 > p{
+    font-size: 3vh;
+    color: rgb(159, 154, 154);
+    word-spacing: 3px;
+    padding-top: 5vh;
+    line-height: 7vh;
+}
+/* -------------------------------------section five---------------------------------------------- */
+.sec5{
+    width: 65%;
+    margin:auto;
+}
+/* ------------------------------------section six---------------------------------------------------- */
+.sec6{
+    text-align: center;
+    padding-top: 10vh;
+}
+
+.sec6 > h1{
+    font-size:7vh;
+    color: rgb(67, 64, 64);
+    line-height: 8px;   
+} 
+
+.sec6 > p{
+    font-size: 3vh;
+    color: rgb(159, 154, 154);
+    padding-top: 3vh;
+}
+
+/* ----------------------------------section seven------------------------------------------------ */
+.sec7{
+    display: flex;
+    text-align: center;
+    column-gap: 20vh;
+    margin: 20vh 20vh;
+}
+
+.sec7 > div > h2{
+    font-size:4vh;
+    color: rgb(72, 69, 69); 
+    padding-top: 2vh;  
+} 
+
+.sec7 > div > p{
+    font-size: 3vh;
+    color: rgb(159, 154, 154);
+    line-height: 4vh;
+}
+
+.sec8{
+    display: flex;
+   padding: 10vh 10vh;
+   justify-content: space-evenly;
+  text-align: center;
+}
+
+.sec8 > img{
+    width: 20vh;
+}
+
+/* ------------------------------------------section nine------------------------------------------------ */
+
+.sec9{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    column-gap: 10px;
+    padding: 10vh 47vh;
+}
+
+.sec9 > h2{
+    font-size:7vh;
+    color: rgb(94, 92, 92);
+    line-height: 5px;
+}
+
+.sec9 > p{
+    font-size: 3vh;
+    color: rgb(159, 154, 154);
+    line-height: 6vh;
+}
+
+.btn{
+    color: white;
+    padding: 15px 35px;
+    border-radius: 50px;
+    border: none;
+    font-size: 3vh;
+    margin-left: 15px ;
+    margin-top: 4vh;
+    box-shadow: 2px 5px 20px rgb(172, 172, 172);
+}
+
+.btn:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.btn1{
+    background-color: rgb(38, 186, 164);
+}
+.btn2{
+    background-color: #6173ff;
+}
+
+/* ------------------------------------------section ten---------------------------------------------------- */
+
+.sec10{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(232, 227, 227, 0.665);
+    margin-top: 10vh;
+    padding: 8vh 5vh;
+    align-items: center;
+}
+
+.sec10 > img{
+    width: 15vh;
+}
+
+.sec10a{
+   width: 30%;
+   display: inline;
+  justify-content: space-between;
+  line-height: 8vh;
+}
+.sec10a > a{
+    color: rgb(159, 154, 154);
+    text-decoration: none;
+    text-align: center;
+    padding: 2vh 3vh;
+    
+}
+.sec10a :hover{
+    color: rgb(38, 186, 164);
+}
+
+.sec10img{
+    display: flex;
+    width: 20vh;
+    justify-content: space-between;
+}
