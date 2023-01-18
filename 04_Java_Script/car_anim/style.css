@@ -1,0 +1,177 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#sky{
+    background-image: url("/sky.png");
+    background-repeat: repeat-x;
+    width: 1500vw;
+    height: 38vh;
+    animation: sky 15s linear infinite;
+}
+@keyframes sky {
+    100%{
+        transform: translateX(-1000px);
+    }
+}
+.hero{
+    overflow: hidden;
+}
+.road{
+    padding-top: 250px;
+    background-image: url('/road.jpg');
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-size: contain;
+    width: 1000vw;
+    height: 25vh;
+    z-index: -3;
+    animation: highway 10s linear infinite;
+}
+@keyframes highway{
+    100%{
+        transform:translateX(-2400px)
+    }
+}
+#car{
+    width: 45em ;
+    position: absolute;
+    top: 40vh;
+    z-index: 1;
+}
+#carbody{
+    height: 22vh;
+}
+
+#light{
+    height: 150px;
+    width: 300px;
+    position: absolute;
+    top: 30px;
+    right: -100px;
+    z-index: 3;
+    background: rgba(255, 255, 255, 0.379);
+    clip-path: polygon(0 30%, 97% 0, 100% 29%, 97% 73%, 9% 43%);
+}
+
+#tyre{
+    display: flex;
+    width: 61%;
+    position: relative;
+    bottom: 5em;
+    justify-content: space-between;
+    margin-left: 3em
+
+}
+#tyre img {
+    cursor: pointer;
+    height: 13vh;
+    animation: rotate 1s linear infinite;
+}
+@keyframes rotate {
+    100%{
+        transform :rotate(360deg);
+    }
+}
+ 
+#green{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    row-gap: 50px;
+    column-gap: 50px;
+    row-gap:10px;
+    padding: 2em;
+    height: 30vh;
+    background-color: #07f9a2;
+}
+.txt{
+    font-size: large;
+
+}
+#chng{
+    width: 80%;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    background: #09c184;
+    font-weight: bolder;
+    box-shadow: inset 0px 0px 10px black;
+}
+#onoff{
+    width: 60%;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    background: #09c184;
+    font-weight: bolder;
+    box-shadow: inset 0px 0px 10px black;
+
+}
+button{
+    z-index: 3;
+    padding: 5px 30px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #c3ede2;
+    font-weight: bolder;
+    border-radius: 10px;  
+}
+button:hover{
+    scale: 1.2;
+    cursor: pointer;
+}
+
+
+
+
+/* for js */
+
+
+@keyframes carotateup {
+    0%{
+        transform: rotate(0deg);
+        transform-origin: left;     
+    }
+    50%{
+        transform: rotate(-10deg);
+        transform-origin: left;     
+    }
+    100%{
+        transform: rotate(0deg);
+        transform-origin: left;     
+    }
+}
+
+@keyframes carotatedwn {
+    0%{
+        transform: rotate(0deg);
+        transform-origin: right;  
+    }
+    80%{
+        transform: rotate(5deg);
+        transform-origin: right;  
+    }
+    100%{
+        transform: rotate(10deg);
+        transform-origin: right;     
+    }
+
+}
+
+@keyframes carmove{
+ 
+    0%{
+        transform:translateX(0px)
+    } 
+    100%{
+        transform:translateX(1200px)
+    }
+}
+
+@keyframes rtfst{
+    100%{
+        transform: rotate(360deg);
+    }
+}
