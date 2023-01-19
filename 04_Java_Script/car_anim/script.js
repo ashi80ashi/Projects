@@ -23,7 +23,8 @@ wheel2.addEventListener("click",()=>{
 })
 
 
-//adding listner to increase the brigthness of car
+
+// adding listner to increase the brigthness of car
 
 // let car = document.getElementById("car");
 // car.addEventListener("mouseover",()=>{
