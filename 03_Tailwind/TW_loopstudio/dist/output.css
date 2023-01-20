@@ -1124,6 +1124,9 @@ video {
 .duration-100 {
   transition-duration: 100ms;
 }
+.duration-500 {
+  transition-duration: 500ms;
+}
 
 #hero {
   background-image: url('./images/image-hero.jpg');
