@@ -1,0 +1,31 @@
+body{
+    background: #000;
+    height: 100vh;
+    width: 100vw;
+}
+h2{
+    color: aqua;
+    text-align: center;
+}
+#circle{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: #48f9d0;
+    font-size: larger;
+    text-align: center;
+    animation: blink 4s linear infinite;
+}
+
+@keyframes blink{
+    0%{
+        scale: 0%;
+    }
+    50%{
+        scale: 100%;
+    }
+    100%{
+        scale: 0%;
+    }
+}
