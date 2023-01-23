@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+body{
+    background-color: black;
+
+}
+.cont{
+    height: 70vh;
+    width: 60vw;
+    margin: 5% auto;
+    background-color: rgb(92, 179, 255);
+    box-shadow: inset 0px 0px 20px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 5vh;
+    align-items: center;
+    font-size: xx-large;
+}
+.cont>p{
+    font-weight: bold;
+    color: rgb(1, 36, 67);
+}
+.li{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 55%;
+    align-items: center;
+    font-size: large;
+    list-style: none;
+}
+.timer{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background:  rgb(1, 36, 67);
+    box-shadow:  0px 0px 10px black;
+
+}
+.timer>span{
+    font-weight: bolder;
+    text-align: center;
+    width: 20%;
+    height: 90%;
+    background: rgb(92, 179, 255);
+}
+.btn > button{
+    width: 10vw;
+    height: 10vh;
+    background: rgb(46, 122, 167);
+    font-weight: bolder;
+    font-size: large;
+    transition: all 1s;
+}
+.btn > button:hover{
+    scale: 90%;
+}
+
+@media screen and (max-width:500px){
+    .cont{
+        height: 80vh;
+        width: 90vw;
+    }
+    .timer{
+        width: 70%;
+        height: 15%;
+    }
+    .timer>span{
+        font-weight: normal;
+        font-size: medium;
+        padding-top: 4%;
+    }
+ .btn>button{
+        font-size: small;
+        font-weight: normal;
+        width: 20vw;
+    }
+}

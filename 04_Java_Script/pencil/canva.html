@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript Drawing App</title>
+    <style>
+      #canvas {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body style="background-color: aqua;">
+ 
+    <canvas id="canvas" width="500" height="500"></canvas>
+    <h2>draw whatever you want !!only in frame</h2>
+    <script>
+      var canvas = document.getElementById("canvas");
+      var ctx = canvas.getContext("2d");
+      
+      canvas.addEventListener("mousedown", startDrawing);
+      canvas.addEventListener("mouseup", stopDrawing);
+      canvas.addEventListener("mousemove", draw);
+      
+      var isDrawing = false;
+      function startDrawing(e) {
+        isDrawing = true;
+        ctx.moveTo(e.clientX, e.clientY);
+      }
+      function stopDrawing() {
+        isDrawing = false;
+      }
+      function draw(e) {
+        if (isDrawing) {
+          ctx.lineTo(e.clientX, e.clientY);
+          ctx.stroke();
+        }
+      }
+    </script>
+  </body>
+</html>

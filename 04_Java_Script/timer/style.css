@@ -1,0 +1,79 @@
+.container{
+    width: 70vw;
+    height: 90vh;
+    margin: 5vh auto;
+    text-align: center;
+    background: #f7b731;
+    padding: 3vh 10vw;
+    box-sizing: border-box;
+    box-shadow: inset 0px 0px 20px #3f2c00;
+    border-radius: 5px;
+}
+input{
+    height: 10vh;
+    background: #fed330;
+    box-shadow: 0px 0px 20px #3f2c00;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+}
+input::placeholder{
+    color: rgb(63, 49, 12);
+    font-weight: 600;
+}
+button{
+    width: 10vw;
+    height: 10vh;
+    font-weight: 600;
+    margin-left: 2vw;
+    background: #fed330;
+    box-shadow: 0px 0px 20px #745802;
+    box-sizing: border-box;
+    
+}
+
+
+h2{
+    color: #624d00;
+}
+
+.countertimer{
+    background: #fed330;
+    box-shadow: 0px 0px 20px #3f2c00;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5vh;
+    border-radius: 5px;
+}
+
+.countertimer > p{
+    width: 10vw;
+    height: 20vh;
+    background: #f7b731;
+    padding-top: 3vh;
+    font-size: larger;
+    font-weight: bolder;
+    box-shadow: inset 0px 0px 10px #3f2c00;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+
+@media screen and (max-width:750px) {
+    .container{
+        padding: 2vh 5vw;
+        height: 150vh;
+    }
+    .countertimer{
+        padding-top: 0.5vh;
+        flex-direction: column;
+        
+    }
+    .countertimer > p{
+        width: 30vw;
+        height: 10vh;
+         
+        
+    }
+}
