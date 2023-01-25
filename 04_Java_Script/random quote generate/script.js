@@ -16,3 +16,4 @@ function Quote() {
 }
 
 random.addEventListener("click", () => Quote());
+onload = Quote();
