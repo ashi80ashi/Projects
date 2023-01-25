@@ -1,0 +1,62 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url("https://images.unsplash.com/photo-1551509134-2f9d4ec80a9b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  word-spacing: 0.5em;
+  color: white;
+}
+
+.container {
+  display: grid;
+  height: 100vh;
+  width: 100vw;
+  place-content: center;
+}
+
+.card {
+  position: relative;
+  max-width: 30rem;
+  padding: 2rem;
+  margin: 1.5rem;
+  background: rgba(0, 0, 0, 0.413);
+  border-radius: 15px;
+  box-shadow: 0px 0px 25px white;
+}
+
+.quote {
+  font-size: 1.5rem;
+}
+
+.author {
+  position: relative;
+  top: 25px;
+  text-align: end;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.author::before {
+  content: "- ";
+}
+
+.generate {
+  cursor: pointer;
+  position: absolute;
+  bottom: 2rem;
+  padding: 0.5rem;
+  font-family: inherit;
+  background-color: rgba(255, 191, 0, 0.957);
+  border-radius: 0.25rem;
+  border: none;
+  color: #000000;
+  font-weight: 900;
+}
+
+.generate:hover {
+  box-shadow: 0 0 15px 0 ;
+}
