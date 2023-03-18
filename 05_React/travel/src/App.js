@@ -4,6 +4,7 @@ import Cards from "./Components/Cards";
 import data from "./data";
 const App = () => {
   const [tours, settours] = useState(data);
+  
   function removecard(id) {
     const newtours = tours.filter((tour) => tour.id !== id);
     settours(newtours);
