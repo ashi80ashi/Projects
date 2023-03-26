@@ -6,7 +6,7 @@ function Navbar({isLoggedIn,setIsLoggedIn}) {
   return (
    <div className='bg-slate-800  flex flex-row items-center justify-between h-20  text-white px-5'>
        
-       <div><Link to="/" /> <img src={Logo} alt="logo" /> </div>
+       <div><Link to="/"> <img src={Logo} alt="logo" /></Link> </div>
 
        <div className='flex gap-20 text-xl font-bold'>
         <Link to="/"> Home</Link>
