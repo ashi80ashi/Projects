@@ -3,6 +3,9 @@
     padding: 0px;
     box-sizing: border-box;
 }
+.hero{
+    overflow: hidden;
+}
 #sky{
     background-image: url("/sky.png");
     background-repeat: repeat-x;
@@ -15,14 +18,10 @@
         transform: translateX(-1000px);
     }
 }
-.hero{
-    overflow: hidden;
-}
 .road{
     padding-top: 250px;
     background-image: url('/road.jpg');
     background-repeat: repeat-x;
-    background-position: bottom;
     background-size: contain;
     width: 1000vw;
     height: 25vh;
@@ -37,7 +36,7 @@
 #car{
     width: 45em ;
     position: absolute;
-    top: 40vh;
+    top: 35vh;
     z-index: 1;
 }
 #carbody{
@@ -50,7 +49,7 @@
     position: absolute;
     top: 30px;
     right: -100px;
-    z-index: 3;
+    z-index: 13;
     background: rgba(255, 255, 255, 0.379);
     clip-path: polygon(0 30%, 97% 0, 100% 29%, 97% 73%, 9% 43%);
 }
