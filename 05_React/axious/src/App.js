@@ -3,23 +3,22 @@ import axios from "axios";
 import User from "./User";
 
 const App = () => {
+  const [details, setdetails] = useState({});
 
-  const[details,setdetails]=useState({})
+  const fetchdata = async () => {
+    const response = await axios.get("https://randomuser.me/api/");
+    const output = response.data.results[0];
+    setdetails(output);
+  };
+  console.log(details);
 
-const fetchdata = async()=>{
-  const response = await axios.get('https://randomuser.me/api/')
-  const output = response.data.results[0]
-  setdetails(output)
-}
-console.log(details)
-
-useEffect(()=>{
-  fetchdata()
-},[])
+  useEffect(() => {
+    fetchdata();
+  }, []);
   return (
-  <div className="w-screen h-screen bg-black flex justify-center items-center">
-    <User details={details} />
-  </div>
+    <div className="w-screen h-screen bg-black flex justify-center items-center">
+      <User details={details} />
+    </div>
   );
 };
 
