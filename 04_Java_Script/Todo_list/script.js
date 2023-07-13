@@ -1,7 +1,7 @@
+
 let form = document.querySelector("form");
 
 let tasks = [];
-
 function rend() {
   let html = "";
   tasks.forEach((value, index) => {
