@@ -45,7 +45,6 @@ function Home() {
         </Link>
         </div>
       </div>
-
       <div className="w-full md:w-1/3 h-1/3 md:h-full  lg:h-96  flex flex-col gap-y-10 justify-center items-center ">
         <img
           src={img}
