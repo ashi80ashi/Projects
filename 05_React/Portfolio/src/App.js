@@ -13,7 +13,6 @@ const App = () => {
   return (
   <div style={{ backgroundImage: `url(${background})` }}  className="bg-center bg-no-repeat bg-cover   flex flex-col justify-between p-0 min-h-screen box-border bg-slate-200 ">
      <Navbar/>
-    
      <Routes>
         <Route>
           <Route path="/" element={<Home />} />
@@ -23,10 +22,7 @@ const App = () => {
           <Route path="/hireme" element={<HireMe />} />
         </Route>
       </Routes>
-
       <Footer/>
-
   </div>);
 };
-
 export default App;
