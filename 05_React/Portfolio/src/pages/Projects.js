@@ -12,7 +12,6 @@ import img9 from "../assets/09.png";
 
 function Projects() {
   const projects = [
-   
     {
       title: "Router Project",
        img: img,
@@ -61,7 +60,6 @@ function Projects() {
   ];
 
   return (
-
 <div className="flex flex-col items-center h-full md:h-[550px]  ">
       <h1 className="text-4xl font-bold my-5">Projects</h1>
       <div className="w-full p-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20 shadow-inner shadow-black overflow-scroll">

@@ -2,8 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div className="mt-10  flex justify-end">
-     
+    <div className="mt-10  flex justify-end"> 
       <div className="flex justify-between  items-center w-4/6 px-10 py-4 bg-gray-800 rounded-tl-full font-bold  shadow-inner shadow-gray-400">
         <div className=" flex justify-evenly w-1/2">
           <a href="https://github.com/ashi80ashi" className="text-white hover:text-gray-300 mr-4 border-b-2 border-gray-500">Github</a>
@@ -13,9 +12,7 @@ function Footer() {
           © {new Date().getFullYear()} Ashish
         </div>
       </div>
-      
     </div>
   )
 }
-
-export default Footer
+export default Footer;

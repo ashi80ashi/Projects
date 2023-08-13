@@ -14,4 +14,4 @@ function HireMe() {
   )
 }
 
-export default HireMe
+export default HireMe;

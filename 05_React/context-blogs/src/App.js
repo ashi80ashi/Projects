@@ -4,7 +4,6 @@ import Pagination from './components/Pagination';
 import { useContext, useEffect } from 'react';
 import { AppContext } from './context/AppContecxt';
 
-
 export default function App() {
   const {fetchBLogPost} = useContext(AppContext);
   useEffect(()=>{
